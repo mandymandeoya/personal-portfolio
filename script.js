@@ -11,41 +11,6 @@ links.querySelectorAll("a").forEach((a) =>
   }),
 );
 
-// Your Gmail address (the contact form opens Gmail with a message to this address)
-const MY_EMAIL = "mandymandeoya@gmail.com";
-
-// Contact form validation, then open Gmail compose (only on the Contact page)
-const form = document.getElementById("contact-form");
-if (form) {
-  const msg = document.getElementById("form-msg");
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const name = form.elements.namedItem("name").value.trim();
-    const email = form.elements.namedItem("email").value.trim();
-    const text = form.elements.namedItem("msg").value.trim();
-    if (!name || !text) {
-      msg.textContent = "Please fill in your name and message.";
-      return;
-    }
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-      msg.textContent = "Please enter a valid email address.";
-      return;
-    }
-    const url =
-      "https://mail.google.com/mail/?view=cm&fs=1&to=" +
-      encodeURIComponent(MY_EMAIL) +
-      "&su=" +
-      encodeURIComponent(
-        form.elements.namedItem("subject").value.trim() || "Portfolio message from " + name,
-      ) +
-      "&body=" +
-      encodeURIComponent(text + "\n\nFrom: " + name + " (" + email + ")");
-    window.open(url, "_blank", "noopener");
-    msg.textContent =
-      "Opening Gmail, just press Send there. Thank you, " + name + "!";
-    form.reset();
-  });
-}
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // Scroll animations: elements fade up every time they enter the screen
