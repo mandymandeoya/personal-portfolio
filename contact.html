@@ -384,10 +384,9 @@
                   >mandymandeoya@gmail.com</a
                 >
               </p>
-              
+
               <p>📍 Taytay, Rizal, Calabarzon</p>
               <div class="socials">
-                
                 <a
                   class="soc"
                   href="https://www.facebook.com/share/1E1VUuEoKK/"
@@ -423,20 +422,45 @@
                 >
               </div>
             </div>
-            <form class="card" id="contact-form" novalidate>
+            <form
+              action="https://formspree.io/f/xdeevnwp"
+              method="POST"
+              class="card"
+              id="contact-form"
+            >
               <h3>Send me a message</h3>
               <p class="form-intro">
-                Fill out the form below and it will open Gmail with your message
-                ready to send to my email.
+                Fill out the form below to send me a message directly to my
+                email.
               </p>
               <label for="name">Name</label
-              ><input id="name" name="name" type="text" placeholder="Your name" />
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+              />
               <label for="email">Email</label
-              ><input id="email" name="email" type="email" placeholder="Your email" />
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Your email"
+              />
               <label for="subject">Subject</label
-              ><input id="subject" name="subject" type="text" placeholder="Subject" />
+              ><input
+                id="subject"
+                name="subject"
+                type="text"
+                placeholder="Subject"
+              />
               <label for="msg">Message</label
-              ><textarea id="msg" name="msg" rows="3" placeholder="Message"></textarea>
+              ><textarea
+                id="msg"
+                name="msg"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
               <p id="form-msg" role="status"></p>
               <button class="btn" type="submit">Send Message</button>
             </form>
