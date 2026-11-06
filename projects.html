@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <title>My Projects | Anabelle Mandeoya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="256x256"
+      href="images/favicon.png"
+    />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg style="position: absolute; width: 0; height: 0" aria-hidden="true">
+      <symbol id="tulip" viewBox="0 0 40 70">
+        <path
+          d="M20 68V30"
+          stroke="#7fa38a"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <path d="M20 58c-8-2-12-8-12-14 6 1 11 5 12 14z" fill="#9dc2a5" />
+        <path
+          d="M8 8c0 14 4 26 12 26s12-12 12-26c-4 3-8 3-12-2-4 5-8 5-12 2z"
+          fill="#f06292"
+        />
+        <path d="M20 6c-2 8-2 18 0 28 2-10 2-20 0-28z" fill="#f8b4cb" />
+      </symbol>
+      <defs>
+        <linearGradient id="igg" x1="0" y1="1" x2="1" y2="0">
+          <stop offset="0" stop-color="#feda75" />
+          <stop offset=".3" stop-color="#fa7e1e" />
+          <stop offset=".55" stop-color="#d62976" />
+          <stop offset=".8" stop-color="#962fbf" />
+          <stop offset="1" stop-color="#4f5bd5" />
+        </linearGradient>
+      </defs>
+      <symbol id="i-html" viewBox="0 0 48 48">
+        <path d="M7 5h34l-3.1 34.5L24 44l-13.9-4.5z" fill="#E44D26" />
+        <path d="M24 8v33.8l11.3-3.600L38 8z" fill="#F16529" />
+        <text
+          x="24"
+          y="31"
+          text-anchor="middle"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="20"
+          fill="#fff"
+        >
+          5
+        </text>
+      </symbol>
+      <symbol id="i-css" viewBox="0 0 48 48">
+        <path d="M7 5h34l-3.1 34.5L24 44l-13.9-4.5z" fill="#1572B6" />
+        <path d="M24 8v33.8l11.3-3.600L38 8z" fill="#33A9DC" />
+        <text
+          x="24"
+          y="31"
+          text-anchor="middle"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="20"
+          fill="#fff"
+        >
+          3
+        </text>
+      </symbol>
+      <symbol id="i-js" viewBox="0 0 48 48">
+        <rect x="5" y="5" width="38" height="38" rx="3" fill="#F7DF1E" />
+        <text
+          x="40"
+          y="39"
+          text-anchor="end"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="17"
+          fill="#000"
+        >
+          JS
+        </text>
+      </symbol>
+      <symbol id="i-git" viewBox="0 0 48 48">
+        <rect
+          x="9"
+          y="9"
+          width="30"
+          height="30"
+          rx="4"
+          transform="rotate(45 24 24)"
+          fill="#F05032"
+        />
+        <path
+          d="M24 17v14M25 19l6 5"
+          stroke="#fff"
+          stroke-width="2.6"
+          stroke-linecap="round"
+          fill="none"
+        />
+        <circle cx="24" cy="16" r="3.2" fill="#fff" />
+        <circle cx="24" cy="32" r="3.2" fill="#fff" />
+        <circle cx="32" cy="25" r="3.2" fill="#fff" />
+      </symbol>
+      <symbol id="i-fb" viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="21" fill="#1877F2" />
+        <path
+          d="M26.5 40V27h4.200l.8-5.200h-5v-3.100c0-1.5.7-2.8 2.9-2.800h2.200v-4.400c-.4-.1-1.9-.3-3.6-.3-4.2 0-6.7 2.6-6.7 7.100v3.500H17V27h4.300v13z"
+          fill="#fff"
+        />
+      </symbol>
+      <symbol id="i-ig" viewBox="0 0 48 48">
+        <rect x="5" y="5" width="38" height="38" rx="11" fill="url(#igg)" />
+        <rect
+          x="13"
+          y="13"
+          width="22"
+          height="22"
+          rx="7"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+        />
+        <circle
+          cx="24"
+          cy="24"
+          r="5.5"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+        />
+        <circle cx="31" cy="17" r="1.8" fill="#fff" />
+      </symbol>
+      <symbol id="i-in" viewBox="0 0 48 48">
+        <rect x="5" y="5" width="38" height="38" rx="6" fill="#0A66C2" />
+        <rect x="12" y="19" width="5" height="16" fill="#fff" />
+        <circle cx="14.5" cy="13.5" r="3" fill="#fff" />
+        <path
+          d="M21 19h4.800v2.300c.9-1.6 2.7-2.7 5-2.7 4.5 0 5.4 3 5.4 6.800V35h-5v-8.300c0-2-.1-3.7-2.4-3.700s-2.8 1.8-2.8 3.600V35h-5z"
+          fill="#fff"
+        />
+      </symbol>
+      <symbol id="i-gh" viewBox="0 0 24 24">
+        <path
+          fill="#181717"
+          d="M12 .297c-6.630 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.040-.015-2.040-3.338.724-4.042-1.610-4.042-1.610C4.422 18.070 3.633 17.7 3.633 17.700c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.070 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.930 0-1.310.465-2.380 1.235-3.220-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.230.96-.267 1.980-.399 3-.405 1.020.006 2.040.138 3 .405 2.280-1.552 3.285-1.230 3.285-1.230.645 1.653.24 2.873.12 3.176.765.84 1.230 1.910 1.230 3.220 0 4.610-2.805 5.625-5.475 5.920.42.36.81 1.096.81 2.220 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+        />
+      </symbol>
+      <symbol id="i-tel" viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="21" fill="#25B866" />
+        <g transform="translate(12 12)">
+          <path
+            fill="#fff"
+            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+          />
+        </g>
+      </symbol>
+      <symbol id="i-php" viewBox="0 0 48 48">
+        <ellipse cx="24" cy="24" rx="21" ry="13" fill="#777BB4" />
+        <text
+          x="24"
+          y="29"
+          text-anchor="middle"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="14"
+          fill="#fff"
+        >
+          php
+        </text>
+      </symbol>
+      <symbol id="i-py" viewBox="0 0 48 48">
+        <rect x="5" y="5" width="38" height="38" rx="9" fill="#3776AB" />
+        <path d="M43 24v10a9 9 0 0 1-9 9H24z" fill="#FFD43B" />
+        <text
+          x="24"
+          y="31"
+          text-anchor="middle"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="18"
+          fill="#fff"
+        >
+          Py
+        </text>
+      </symbol>
+      <symbol id="i-cpp" viewBox="0 0 48 48">
+        <path d="M24 3l18 10.500v21L24 45 6 34.500v-21z" fill="#00599C" />
+        <text
+          x="24"
+          y="30"
+          text-anchor="middle"
+          font-family="Poppins,Arial,sans-serif"
+          font-weight="700"
+          font-size="15"
+          fill="#fff"
+        >
+          C++
+        </text>
+      </symbol>
+      <symbol id="i-sql" viewBox="0 0 48 48">
+        <path d="M7 11v26c0 4 7.6 7 17 7s17-3 17-7V11z" fill="#4479A1" />
+        <ellipse cx="24" cy="11" rx="17" ry="7" fill="#8DB8D6" />
+        <path
+          d="M7 21c0 4 7.6 7 17 7s17-3 17-7M7 31c0 4 7.6 7 17 7s17-3 17-7"
+          fill="none"
+          stroke="#fff"
+          stroke-width="2"
+          opacity=".7"
+        />
+      </symbol>
+      <symbol id="m-fb" viewBox="0 0 48 48">
+        <path
+          fill="currentColor"
+          d="M26.5 40V27h4.200l.8-5.200h-5v-3.100c0-1.5.7-2.8 2.9-2.800h2.200v-4.400c-.4-.1-1.9-.3-3.6-.3-4.2 0-6.7 2.6-6.7 7.100v3.500H17V27h4.300v13z"
+        />
+      </symbol>
+      <symbol id="m-ig" viewBox="0 0 48 48">
+        <rect
+          x="9"
+          y="9"
+          width="30"
+          height="30"
+          rx="9"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3.6"
+        />
+        <circle
+          cx="24"
+          cy="24"
+          r="7"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3.6"
+        />
+        <circle cx="33" cy="15" r="2.2" fill="currentColor" />
+      </symbol>
+      <symbol id="m-in" viewBox="0 0 48 48">
+        <rect x="10" y="19" width="6" height="19" fill="currentColor" />
+        <circle cx="13" cy="12.5" r="3.4" fill="currentColor" />
+        <path
+          fill="currentColor"
+          d="M21 19h5.700v2.800c1.1-1.9 3.2-3.2 6-3.2 5.3 0 6.3 3.5 6.3 8V38h-6v-9.800c0-2.3-.1-4.3-2.8-4.300s-3.2 2.1-3.2 4.200V38h-6z"
+        />
+      </symbol>
+      <symbol id="m-gh" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12 .297c-6.630 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.040-.015-2.040-3.338.724-4.042-1.610-4.042-1.610C4.422 18.070 3.633 17.7 3.633 17.700c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.070 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.930 0-1.310.465-2.380 1.235-3.220-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.230.96-.267 1.980-.399 3-.405 1.020.006 2.040.138 3 .405 2.280-1.552 3.285-1.230 3.285-1.230.645 1.653.24 2.873.12 3.176.765.84 1.230 1.910 1.230 3.220 0 4.610-2.805 5.625-5.475 5.920.42.36.81 1.096.81 2.220 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+        />
+      </symbol>
+      <symbol id="i-tt" viewBox="0 0 48 48">
+        <rect x="4" y="4" width="40" height="40" rx="10" fill="#111" />
+        <g transform="translate(8.5 8.5) scale(1.350)">
+          <path
+            transform="translate(-.8 -.8)"
+            fill="#25F4EE"
+            d="M16.6 5.820A4.280 4.280 0 0 1 15.540 3h-3.090v12.400a2.590 2.590 0 0 1-2.590 2.500c-1.420 0-2.6-1.160-2.6-2.6 0-1.720 1.660-3.010 3.370-2.480V9.660c-3.450-.46-6.470 2.220-6.470 5.640 0 3.330 2.760 5.7 5.690 5.7 3.140 0 5.690-2.550 5.690-5.700V9.010a7.350 7.350 0 0 0 4.3 1.380V7.300s-1.880.09-3.240-1.480z"
+          />
+          <path
+            transform="translate(.8 .8)"
+            fill="#FE2C55"
+            d="M16.6 5.820A4.280 4.280 0 0 1 15.540 3h-3.090v12.400a2.590 2.590 0 0 1-2.590 2.500c-1.420 0-2.6-1.160-2.6-2.6 0-1.720 1.660-3.010 3.370-2.480V9.660c-3.450-.46-6.470 2.220-6.470 5.640 0 3.330 2.760 5.7 5.690 5.7 3.140 0 5.690-2.550 5.690-5.700V9.010a7.350 7.350 0 0 0 4.3 1.380V7.300s-1.880.09-3.240-1.480z"
+          />
+          <path
+            fill="#fff"
+            d="M16.6 5.820A4.280 4.280 0 0 1 15.540 3h-3.090v12.400a2.590 2.590 0 0 1-2.590 2.500c-1.420 0-2.6-1.160-2.6-2.6 0-1.720 1.660-3.010 3.370-2.480V9.660c-3.450-.46-6.470 2.220-6.470 5.640 0 3.330 2.760 5.7 5.690 5.7 3.140 0 5.690-2.550 5.690-5.700V9.010a7.350 7.350 0 0 0 4.3 1.380V7.300s-1.880.09-3.240-1.480z"
+          />
+        </g>
+      </symbol>
+      <symbol id="m-tt" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"
+        />
+      </symbol>
+    </svg>
+
+    <header class="nav">
+      <div class="wrap nav-in">
+        <a href="index.html" class="logo" aria-label="nbll_mndy home"
+          ><img class="logo-img" src="images/logo.png" alt="nbll_mndy logo"
+        /></a>
+        <button
+          id="menu-btn"
+          class="menu-btn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="links" class="links" aria-label="Main">
+          <a class="nav-ico" href="index.html" aria-label="Home"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <path d="M12 3 3 11h2v9h5v-6h4v6h5v-9h2z" /></svg></span
+            ><span class="lbl">Home</span></a
+          ><a class="nav-ico" href="about.html" aria-label="About Me"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z" /></svg></span
+            ><span class="lbl">About Me</span></a
+          ><a class="nav-ico" href="skills.html" aria-label="Skills"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"
+                /></svg></span
+            ><span class="lbl">Skills</span></a
+          ><a
+            class="nav-ico"
+            href="projects.html"
+            aria-current="page"
+            aria-label="Projects"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M6 4c0 6 2 10 6 10s6-4 6-10c-2 1.5-4 1.5-6-1-2 2.5-4 2.5-6 1z"
+                />
+                <path
+                  d="M12 14v8"
+                  stroke="#f8bbd0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg></span
+            ><span class="lbl">Projects</span></a
+          ><a class="nav-ico" href="education.html" aria-label="Education"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <path d="M12 3 1 9l11 6 9-4.9V17h2V9z" />
+                <path
+                  d="M5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8z"
+                /></svg></span
+            ><span class="lbl">Education</span></a
+          >
+          <a class="nav-ico" href="contact.html" aria-label="Contact Me"
+            ><span class="ib"
+              ><svg viewBox="0 0 24 24">
+                <path d="M3 5h18v14H3z" />
+                <path
+                  d="M3 6l9 7 9-7"
+                  fill="none"
+                  stroke="#5e3040"
+                  stroke-width="1.8"
+                /></svg></span
+            ><span class="lbl">Contact Me</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="band b-projects">
+        <section id="projects" class="wrap">
+          <h2 class="title">My Projects</h2>
+          <p class="sub">
+            A few things I've built, from school activities to personal ideas.
+          </p>
+          <div class="proj-grid">
+            <article class="card proj">
+              <img
+                src="images/project1.jpg"
+                alt="Screenshot of my personal landing page"
+              />
+              <h3>Personal Landing Page</h3>
+              <p>
+                My first personal landing page, with a tulip-themed hero, a
+                navigation menu, and a Hire me button.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>School Activity</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/nbll.mndy/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+            <article class="card proj">
+              <img
+                src="images/project2.jpg"
+                alt="Screenshot of the Visit Rizal website"
+              />
+              <h3>Visit Rizal</h3>
+              <p>
+                A tourism website that promotes Rizal, with a full-screen hero,
+                a navigation menu, and sections for destinations, blog, gallery,
+                FAQ, and contact.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>School Activity</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/finalactatolcc/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+            <article class="card proj">
+              <img
+                src="images/project3.jpg"
+                alt="Screenshot of my OLWS1 activity page"
+              />
+              <h3>Personal Guide</h3>
+              <p>
+                A plain HTML activity page that practices headings, navigation
+                links, lists, images with captions, and organized sections.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>School Activity</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/pull_the_inspection_actOLWS1/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+            <article class="card proj">
+              <img
+                src="images/project4.jpg"
+                alt="Screenshot of the Daily Thought Board app"
+              />
+              <h3>Daily Thought Board</h3>
+              <p>
+                A small interactive web app where you type a quote or thought
+                and see it in a live preview, with a 280-character counter, a
+                last-updated time, and a theme switcher.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>School Activity</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/livemessagepreview_nbllmndy/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+            <article class="card proj">
+              <img
+                src="images/project5.jpg"
+                alt="Screenshot of the Bills Tracker app"
+              />
+              <h3>Bills Tracker</h3>
+              <p>
+                A personal idea I made through vibe coding for my own use, to
+                track electricity, water, and WiFi bills shared by four
+                families, with monthly summaries, billing tables, and a
+                calendar. I made it so I don't have to struggle recording data
+                and so I have a digital record, not only physical ones. It is
+                not finished yet, and I want to keep improving it over time.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>Personal Idea</span><span>Vibe Coded</span>
+                <span>In Progress</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/bills-tracker_nbllmndy/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+            <article class="card proj">
+              <img
+                src="images/project6.jpg"
+                alt="Screenshot of the Pill Tracker app"
+              />
+              <h3>Pill Tracker</h3>
+              <p>
+                A personal idea I made through vibe coding for my own use: a
+                mobile-friendly daily tracker with a 28-day pack view, a
+                progress bar, a calendar, and a light and dark theme. I made it
+                so I don't have to struggle recording data and so I have a
+                digital record, not only physical ones. It is not finished yet,
+                and I want to keep improving it over time.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>Personal Idea</span><span>Vibe Coded</span>
+                <span>In Progress</span>
+              </div>
+              <a
+                class="btn"
+                href="https://mandymandeoya.github.io/pill-tracker_nbllmndy/"
+                target="_blank"
+                rel="noopener"
+                >View Project</a
+              >
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot-in">
+        <div class="foot-brand">
+          <span class="foot-logo"
+            ><img src="images/logo.png" alt="nbll_mndy logo"
+          /></span>
+          <div>
+            <strong class="accent cookie-name">Anabelle Mandeoya</strong>
+            <p class="cookie-line">
+              Where creativity meets technology and purpose.
+            </p>
+          </div>
+        </div>
+        <nav class="foot-links" aria-label="Quick Links">
+          <a href="about.html">About</a><a href="skills.html">Skills</a
+          ><a href="projects.html">Projects</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="wrap">
+        <div class="copy foot-bottom">
+          <p class="foot-left">
+            © <span id="year">2026</span> Anabelle Mandeoya
+          </p>
+          <p class="foot-mid">Designed &amp; Developed by Anabelle Mandeoya</p>
+          <p class="foot-right">BSIT | 2nd Year | 1st Trimester</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="to-top" class="to-top" type="button" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 19V6M6 11l6-6 6 6"
+          fill="none"
+          stroke="#fff"
+          stroke-width="2.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
