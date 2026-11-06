@@ -30,4 +30,4 @@ Open `index.html` in a browser. No build step is needed.
 
 ## Live website
 
-[Paste your GitHub Pages URL here]
+https://mandymandeoya.github.io/personal-portfolio/
